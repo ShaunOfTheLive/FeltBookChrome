@@ -255,3 +255,8 @@ nav {
     width: calc(100% - 560px) !important; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/* temporary fix */
+.fbChatSidebar {
+  top: 192px !important;
+}
