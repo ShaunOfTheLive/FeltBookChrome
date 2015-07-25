@@ -1,6 +1,11 @@
 document.body.className = "fullbleed"
+
 var li = document.getElementsByClassName('_li')[0]
 var bluebar = document.getElementById("pagelet_bluebar");
+
+var welcomeBoxName = document.getElementsByClassName('fbxWelcomeBoxName')[0].innerHTML;
+var welcomeBoxProfilePic = document.getElementsByClassName('fbxWelcomeBoxProfilePic')[0].src;
+
 var nav = document.createElement("nav");
 var navWrapper = document.createElement("div");
 navWrapper.className = "nav-wrapper"
@@ -11,8 +16,8 @@ navWrapper.innerHTML =
 <input placeholder="Search for people, places and things" class="searchmobile" type="text"> \
 <a href="#!"> \
 <div class="account"> \
-    <div class="avatar" style="background-image: url(https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/1554507_10203892436861295_5967994955969268628_n.jpg?oh=1833357327c9137465475a394a340a29&oe=564C0E1C)"></div> \
-    <div class="accountname">Connor Kirkby</div> \
+    <div class="avatar" style="background-image: url(' + welcomeBoxProfilePic + ')"></div> \
+    <div class="accountname">' + welcomeBoxName + '</div> \
 </div> \
 </a> \
 <div class="interactions"> \
