@@ -1,0 +1,257 @@
+/* line 1, F:/Web/materialisetheweb/facebook/css/style.scss */
+body.fullbleed {
+  margin: 0;
+  height: 100vh; }
+
+/* line 5, F:/Web/materialisetheweb/facebook/css/style.scss */
+nav {
+  background-color: #3a5795;
+  height: 192px; }
+
+/* line 9, F:/Web/materialisetheweb/facebook/css/style.scss */
+.nav-wrapper {
+  margin-left: 16px; }
+  /* line 10, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper img {
+    display: inline-block;
+    margin-top: 10px; }
+  /* line 14, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper div {
+    opacity: .9;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: -2px;
+    position: absolute;
+    margin-left: 16px;
+    line-height: 56px; }
+  /* line 23, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .search {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    margin-left: 150px;
+    background: #5971a3 !important;
+    border-radius: 4px;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    height: auto; }
+  /* line 36, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .search:focus {
+    border-bottom: none !important;
+    box-shadow: none !important;
+    color: none;
+    outline: none; }
+  /* line 42, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .searchmobile {
+    display: none; }
+  /* line 45, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .interactions {
+    float: right;
+    right: 16px;
+    position: absolute;
+    top: 0px; }
+    /* line 46, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .nav-wrapper .interactions i {
+      display: inline-block;
+      margin-left: 24px;
+      opacity: .7;
+      transition: opacity 1s; }
+    /* line 52, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .nav-wrapper .interactions i:hover {
+      opacity: 1.0;
+      transition: opacity 1s; }
+  /* line 61, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .account {
+    width: 100px !important;
+    float: right;
+    right: 200px;
+    position: absolute; }
+    /* line 62, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .nav-wrapper .account .avatar {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: inline-block;
+      background-size: cover;
+      background-position: center center;
+      margin-left: -30px;
+      margin-top: 13px;
+      opacity: 1.0; }
+    /* line 73, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .nav-wrapper .account .accountname {
+      color: white;
+      font-size: 15px !important;
+      width: 100px;
+      opacity: 1.0;
+      margin-top: 3px; }
+
+/* line 87, F:/Web/materialisetheweb/facebook/css/style.scss */
+.profileprotect {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 30%, transparent 100%);
+  width: 100%;
+  height: 100px; }
+
+/* line 92, F:/Web/materialisetheweb/facebook/css/style.scss */
+.container {
+  margin-top: -64px; }
+
+/* line 95, F:/Web/materialisetheweb/facebook/css/style.scss */
+.posts {
+  width: 67%;
+  display: inline-block; }
+  /* line 96, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .posts .post {
+    padding: 16px; }
+    /* line 98, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .user .avatar {
+      width: 56px;
+      height: 56px;
+      background: black;
+      border-radius: 50%;
+      display: inline-block;
+      background-size: cover;
+      background-position: center center; }
+    /* line 107, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .user .name {
+      font-size: 18px;
+      display: inline-block;
+      line-height: 56px;
+      position: absolute;
+      margin-left: 16px;
+      margin-top: -10px;
+      font-weight: 500; }
+    /* line 116, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .user .posttime {
+      font-size: 18px;
+      display: inline-block;
+      line-height: 56px;
+      position: absolute;
+      margin-left: 16px;
+      margin-top: 10px;
+      font-weight: 300;
+      opacity: .8;
+      font-size: 15px; }
+      /* line 117, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .user .posttime i {
+        opacity: .3; }
+    /* line 131, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .content {
+      margin-top: 16px; }
+      /* line 133, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .content .text i:hover {
+        cursor: initial;
+        opacity: .8; }
+      /* line 138, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .content i {
+        padding: 10px;
+        cursor: pointer;
+        opacity: .8;
+        transition: opacity 1s; }
+      /* line 144, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .content i:hover {
+        opacity: 1.0;
+        transition: opacity 1s; }
+    /* line 150, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .image {
+      width: calc(100% + 32px);
+      margin-left: -16px;
+      margin-top: 10px; }
+    /* line 155, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .posts .post .comment {
+      margin-top: 16px; }
+      /* line 156, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .comment .avatar {
+        width: 38px;
+        height: 38px;
+        background: black;
+        border-radius: 50%;
+        display: inline-block;
+        background-size: cover;
+        background-position: center center; }
+      /* line 165, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .comment input {
+        display: inline-block;
+        width: calc(100% - 160px);
+        margin-left: 16px;
+        position: absolute;
+        margin-top: -7px; }
+      /* line 172, F:/Web/materialisetheweb/facebook/css/style.scss */
+      .posts .post .comment i {
+        float: right;
+        margin-right: 0;
+        right: 0;
+        width: 32px;
+        opacity: .4; }
+
+/* line 186, F:/Web/materialisetheweb/facebook/css/style.scss */
+.ads {
+  width: 30%;
+  float: right !important;
+  display: inline-block;
+  top: 0;
+  right: 0; }
+  /* line 187, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .ads .ad {
+    padding: 16px;
+    font-size: 10px; }
+    /* line 188, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .ads .ad .trendingtitle {
+      font-weight: 500;
+      font-size: 18px;
+      display: inline-block; }
+    /* line 193, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .ads .ad i {
+      opacity: .7;
+      margin: 7px;
+      color: black; }
+    /* line 198, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .ads .ad .active {
+      color: steelblue; }
+    /* line 203, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .ads .ad .title {
+      font-size: 15px;
+      display: inline-block;
+      color: steelblue; }
+    /* line 208, F:/Web/materialisetheweb/facebook/css/style.scss */
+    .ads .ad .subtitle {
+      font-size: 13px;
+      opacity: .8; }
+
+/* line 219, F:/Web/materialisetheweb/facebook/css/style.scss */
+.btn-floating {
+  background-color: #3a5795 !important; }
+
+@media screen and (max-width: 600px) {
+  /* line 223, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .ads {
+    display: none; }
+  /* line 226, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .posts {
+    width: 100%; }
+  /* line 229, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .search {
+    display: none;
+    width: 0px; }
+  /* line 233, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .searchmobile {
+    display: block;
+    width: calc(100% - 25px); }
+  /* line 237, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .interactions {
+    padding-top: 8px; }
+  /* line 240, F:/Web/materialisetheweb/facebook/css/style.scss */
+  fixed-action-btn {
+    margin-bottom: 16px !important;
+    margin-right: 16px !important; }
+  /* line 244, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .nav-wrapper .account {
+    display: none; } }
+
+@media screen and (max-width: 1060px) {
+  /* line 249, F:/Web/materialisetheweb/facebook/css/style.scss */
+  .search {
+    width: calc(100% - 560px) !important; } }
+
+/*# sourceMappingURL=style.css.map */
