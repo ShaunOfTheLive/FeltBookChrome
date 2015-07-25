@@ -19,7 +19,8 @@
     {
       "matches": ["https://www.facebook.com/*"],
       "css": ["css/style.css", "css/materialize.min.css", "css/material-icons.css", "css/material-design-iconic-font.min.css"],
-      "js": ["js/jquery-2.1.1.min.js", "js/materialize.min.js"]
+      "js": ["js/jquery-2.1.1.min.js", "js/materialize.min.js", "js/start.js"],
+      "run_at": "document_start"
     }
   ]
 }
