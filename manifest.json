@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
-      "css": ["css/materialize.min.css", "css/material-icons.css", "css/material-design-iconic-font.min.css", "css/style.css"],
+      "css": ["css/material-icons.css", "css/material-design-iconic-font.min.css"],
       "js": ["js/jquery-2.1.1.min.js", "js/materialize.min.js", "js/start.js"],
       "run_at": "document_start"
     },
@@ -26,5 +26,9 @@
       "matches": ["https://www.facebook.com/*"],
       "js": ["js/main.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "css/materialize.min.css",
+    "css/style.css"
   ]
 }
