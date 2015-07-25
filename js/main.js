@@ -24,5 +24,5 @@ navWrapper.innerHTML =
 nav.appendChild(navWrapper)
 globalContainer = document.getElementById("globalContainer");
 li.removeChild(bluebar);
-li.insertBefore(nav, globalContainer);
+document.body.insertBefore(nav, li);
 
