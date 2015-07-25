@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
-      "css": ["css/style.css", "css/materialize.min.css"]
+      "css": ["css/style.css", "css/materialize.min.css", "css/material-icons.css", "css/material-design-iconic-font.min.css"]
     }
   ]
 }
