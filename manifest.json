@@ -29,6 +29,7 @@
   ],
   "web_accessible_resources": [
     "css/materialize.min.css",
-    "css/style.css"
+    "css/style.css",
+    "font/roboto/Roboto-Regular.woff2"
   ]
 }
